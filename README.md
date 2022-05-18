@@ -1,4 +1,4 @@
-# SIGFOX-WITH-PROXY
+# SIGFOX-PROXY
 
 This is a project done with my students.
 
