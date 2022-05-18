@@ -10,6 +10,6 @@ Constraint : Rate limitation (max) -> 1 request every second.
 
 Credit : image from https://nicepage.com/
 
-TO DO : use only single button for Today and Yesterday update.
+TO DO : use single button for Today and Yesterday update.
 
 Free to use. If you make a reference to this repo, I will enjoy.
