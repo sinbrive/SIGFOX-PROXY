@@ -1,6 +1,6 @@
 # SIGFOX-PROXY
 
-This is a project done with my students.
+This is a project done with our students.
 
 The purpose is to supervise remotely a ramblers counter.
 
@@ -14,4 +14,4 @@ Branch created : cumul version.
 
 Credit : image from https://nicepage.com/
 
-Free to use. If you make a reference to this repo, I will enjoy.
+Free to use. If you make a reference to this repo, we will enjoy.
