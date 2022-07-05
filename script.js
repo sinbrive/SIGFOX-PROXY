@@ -33,6 +33,12 @@ function updateDiff(){
 //-----------------------
 function getRange(since, before) {
 
+    if (!since) {
+        console.log(since);
+        document.querySelector('#res-dates').innerHTML="00";
+        return;
+    }
+
     since_t = new Date(since).getTime();
 
     before_t=new Date(since).getTime()+3600*24*1000;
