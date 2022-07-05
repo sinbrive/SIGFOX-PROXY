@@ -29,7 +29,6 @@ function updateDiff(){
 function getRange(since, before) {
 
     if (!since) {
-        console.log(since);
         document.querySelector('#res-dates').innerHTML="00";
         return;
     }
