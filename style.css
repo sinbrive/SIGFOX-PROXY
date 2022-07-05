@@ -15,8 +15,8 @@ body{
 section{
   justify-content: center;
   display: flex;
-  /*flex-direction: row;
-  flex-wrap: wrap;*/
+  flex-direction: row;  /* added in v2 **/
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -33,7 +33,7 @@ section>div>p{
    font-size: 50px;
 }
 
-button, input[type="submit"]{
+button{
   margin:0 auto;
   color: #FF844F;
   text-align: center;
@@ -44,27 +44,22 @@ button, input[type="submit"]{
   background-color: transparent;
 }
 
-a:link, a:visited { 
-  text-decoration: none; 
-  color: #FF844F;
-}
-
-
-button>img, span>img{
+button>img{
   display:block;
   margin: 0 auto;
-  width:20px;
-  height:20px;
+  width:20%;
+  height:20%;
 }
 
+
 .main {
-  background-color: #0F50B3;
+  background-color: #900C3F;
   padding: 5px 0 10px 0;
 }
 
 #btn-dates  {
-  /*display:block;
-  margin-bottom: 7px;*/
+  display:block;
+  margin-bottom: 7px;
 }
 
 .input-dates{
@@ -84,6 +79,13 @@ input{
     margin: 10px auto;
 }
 
+input[type="date"]::before{
+   content: attr(placeholder)" : ";
+   white-space: pre;
+}
+input[type="date"]:focus::before {
+   content:""!important;
+}
 
 #res-day, #res-yest, #res-dates  {
   text-align: center;
@@ -126,4 +128,10 @@ input{
   color: #ccc;
   text-align: center;
   font-style: italic;
+}
+
+#diff-yesterday, #diff-date {
+    border: none;
+    color: white;
+    font-size: 1em;
 }

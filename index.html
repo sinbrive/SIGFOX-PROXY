@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCompteur</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="main"> 
+  <h1>e-Compteur</h1>
+  <p id="descriptif">
+    Comptage à distance du nombre de randonneurs (CUMUL).
+  </p>
+<div class=container>
+  <div class="info">
+    <div class="datetime" id="date">Date</div>
+    <div id="text"></div>
+    <div class="datetime" id="time">Heure</div>
+  </div> 
+
+  <section>
+    <div>
+      <p id="res-day">00</p>
+      <span id="diff-yesterday"></span>
+    </div>
+    
+
+    <div>
+      <p id="res-yest">00</p>
+       <span id="diff-date"></span>
+   </div>
+
+    <div>
+      <p id="res-dates">00</p> 
+    </div>
+  </section>
+  
+  <section>
+    <div>
+      <button id="btn-day" onclick="getToday()">Aujourd'hui <img src="61444.png"></button>
+    </div>
+
+    <div>
+      <button id="btn-yest" onclick="getYesterday()">Hier <img src="61444.png"></button>
+    </div>
+
+    <div>
+      <div class="input-dates">
+        <button id="btn-dates" onclick="getRange(document.getElementById('since').value)">Autres <img src="61444.png"></button>
+        <input id="since" type="date" placeholder="date" name="since">
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+
+</div>
+
+<!--<script src="config.js"></script>-->
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
