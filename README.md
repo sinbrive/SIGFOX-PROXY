@@ -8,8 +8,10 @@ config.php contains the API login.
 
 Constraint : Rate limitation (max) -> 1 request every second.
 
-Credit : image from https://nicepage.com/
+TO DO : solve the limitation of 100 messages max per fetch (Sigfox constraint).
 
-TO DO : use single button for Today and Yesterday update.
+Branch created : cumul version. 
+
+Credit : image from https://nicepage.com/
 
 Free to use. If you make a reference to this repo, I will enjoy.
