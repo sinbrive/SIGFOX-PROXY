@@ -1,6 +1,3 @@
-// fetch not supported by old version of major browsers
-// see list here : https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-// alternative : XMLHttpRequest
 
 var URL ='api.php?';
 
