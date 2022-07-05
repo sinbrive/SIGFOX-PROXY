@@ -1,8 +1,6 @@
-// fetch not yet supported by old version of major browsers
+// fetch not supported by old version of major browsers
 // see list here : https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 // alternative : XMLHttpRequest
-
-//var URL ='https://sinbrive.000webhostapp.com/rando72/api.php?'
 
 var URL ='api.php?';
 
